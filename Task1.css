@@ -62,7 +62,18 @@ main {
   background-position: bottom;
   background-size: cover;
 }
-
+.step {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #FF9A4B;
+  color: white;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
 .step-num {
   padding: 3px;
   position: absolute;
